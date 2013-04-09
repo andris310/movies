@@ -1,0 +1,106 @@
+body
+{
+background-image:url('tiles.jpg');
+background-repeat:repeat-x;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.searchbar {
+	margin-top: 20px;
+}
+
+.home_search {
+	margin-top: 100px;
+}
+
+.border {
+	border: 1px solid #D6D6D6;
+}
+
+.top-container {
+	background-color: #E7E7E7;
+	height: 250px;
+}
+
+#wrapper {
+	margin: 20px auto 40px auto;
+}
+
+.container {
+	width: 830px;
+	background-color: #FFF;
+	border-radius: 4px;
+}
+
+.container h1 {
+	float: left;
+	margin-left: 20px;
+}
+
+.home_search h1 {
+	text-align: center;
+	margin-top: 30px;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 3px 2px 1px #FFF, 3px 2px 2px #2E2E2E;
+}
+
+h3 {
+	margin-left: 20px;
+}
+
+.movie_title {
+	margin-left: 20px;
+	font-family: 'Oswald', sans-serif;
+	text-shadow: 3px 2px 1px #FFF, 3px 2px 2px #2E2E2E;
+}
+
+.search_results {
+	border: 1px solid #E7E7E7;
+	padding: 5px;
+	font-weight: bolder;
+}
+
+.results {
+	margin: 0 30px 30px 30px;
+}
+
+.search_results a:hover {
+	color: #DB488F;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+
+.data {
+	text-align: right;
+	font-weight: bold;
+}
+
+table td {
+	padding: 7px;
+}
+
+span {
+	font-weight: bold;
+}
+
+img.poster {
+	float: left;
+	margin-bottom: 20px;
+	box-shadow: 0px 3px 8px #696969;
+}
+
+form {
+	margin: 20px 0 0 200px;
+}
+
+input {
+	border: 3px solid #CFCFCF;
+}
+
+.details {
+	
+}

@@ -1,0 +1,13 @@
+<div class="container border" id="wrapper">
+	<%= erb :search_bar %>
+	<h3 class="movie-title">You searched for '<%= @title.split.map{|i| i.capitalize}.join(" ") %>'</h3>
+
+	<div class='results'>
+
+		<% @results["Search"].each do |item| %>
+		<div class="search_results">
+			<a href="/movies/<%= item["imdbID"] %>"><%= item["Title"] %> <%= item["Year"] %><a/>
+		</div>
+			<% end %>
+	</div>
+</div>

@@ -1,0 +1,38 @@
+<div class="container border" id="wrapper">
+	<%= erb :search_bar %>
+	<h2 class="movie_title"><%= @results["Title"] %>   <%= @results["Year"] %></h2>
+		<img class="poster span4" src=<%= @results["Poster"] %>>
+		<div class="details span6 lead">
+			<table>
+				<tr>
+					<td class="data">Actors: </td>
+					<td><%= @results["Actors"] %></td>
+				</tr>
+				<tr>
+					<td class="data">Director: </td>
+					<td><%= @results["Director"] %></td>
+				</tr>
+				<tr>
+					<td class="data">Writer: </td>
+					<td><%= @results["Writer"] %></td>
+				</tr>
+				<tr>
+					<td class="data">Genre: </td>
+					<td><%= @results["Genre"] %></td>
+				</tr>
+				<tr>
+					<td class="data">Rated: </td>
+					<td><%= @results["Rated"] %></td>
+				</tr>
+				<tr>
+					<td class="data">Runtime: </td>
+					<td><%= @results["Runtime"] %></td>
+				</tr>
+				<tr>
+					<td class="data">Rating: </td>
+					<td><%= @results["imdbRating"] %></td>
+				</tr>
+			</table>
+			<p><span>Plot:</span> <%= @results["Plot"] %></p>
+		</div>
+</div>
